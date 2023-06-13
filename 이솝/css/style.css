@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@import url(../css/reast.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+}s
+
+.container{
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    background-color: #444;
+}
+.header .header_left {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.header .header_left .logo {}
+.header .header_left .logo img {
+    width: 120px;
+    height: 80px;
+}
+
+.header .header_right{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.header .header_right ul {
+   
+}
+.header .header_right ul li {
+     display: inline-block;
+     margin: 25px 10px 0;
+}
+.header .header_right ul li a {
+    font-size: 20px;
+}
